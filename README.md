@@ -9,6 +9,6 @@ Example script on how to use a local hot wallet to do basic transfer, with prefe
 4. Send a transaction.
 
 ## Usage
-node index.js <TO ADDRESS> <AMOUNT IN SOL> <COMPUTE UNIT PRICE IN MICROLAMPORTS PER COMPUTE UNIT> <COMPUTE UNIT LIMIT>
+node index.js [TO ADDRESS] [AMOUNT IN SOL] [COMPUTE UNIT PRICE IN MICROLAMPORTS PER COMPUTE UNIT] [COMPUTE UNIT LIMIT]
 
 ## Good Luck Out There!!!
