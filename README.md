@@ -1,6 +1,13 @@
 # solxfer
 Example script on how to use a local hot wallet to do basic transfer, with preferred config options to promote tx confirmation during times of congestion.
 
+## Description
+There are two scripts, one for sending SOL, another for sending SPL tokens. 
+* solxfer.js = send SOL
+* splxfer.js = send SPL
+
+Warning: The scripts are pretty rough around the edges, SO USE AT YOUR OWN RISK. TEST FIRST. THERE ARE FEW, IF ANY SAFETY CHECKS TO ENSURE YOU ARE SENDING TO THE CORRECT ADDRESS, OR THE CORRECT AMOUNT.
+
 ## Setup
 1. Install the dependencies:
     $ npm install
@@ -9,6 +16,7 @@ Example script on how to use a local hot wallet to do basic transfer, with prefe
 4. Send a transaction.
 
 ## Usage
-node index.js [TO ADDRESS] [AMOUNT IN SOL] [COMPUTE UNIT PRICE IN MICROLAMPORTS PER COMPUTE UNIT] [COMPUTE UNIT LIMIT]
+node solxfer.js [TO ADDRESS] [UI AMOUNT IN SOL] [COMPUTE UNIT PRICE IN MICROLAMPORTS PER COMPUTE UNIT] [COMPUTE UNIT LIMIT]
+node splxfer.js [TO ADDRESS] [UI AMOUNT IN SPL TOKEN] [COMPUTE UNIT PRICE IN MICROLAMPORTS PER COMPUTE UNIT] [COMPUTE UNIT LIMIT] [TOKEN_MINT_ID]
 
 ## Good Luck Out There!!!
