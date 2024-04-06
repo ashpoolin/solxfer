@@ -67,13 +67,6 @@ async function getTokenDecimals(connection, tokenMintPublicKey) {
   return mintInfo.decimals;
 }
 
-// async function setTokenTransferAmount(connection, fromTokenAccount, amount, decimals) {
-//   const amountParams = {};
-//   amountParams.decimals = decimals;
-//   const fromAccountBalance = await splToken.getAccountInfo(connection, fromTokenAccount);
-//   return Math.floor(amount * (10 ** decimals));
-// }
-
 // Establish connection
 const connection = new Connection(CONNECTION_URL, 'confirmed');
 async function transferSPL() {
